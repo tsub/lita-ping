@@ -1,7 +1,11 @@
 module Lita
   module Handlers
     class Ping < Handler
-      # insert handler code here
+      route /ping/i, :ping
+
+      def ping(response)
+        response.reply('pong')
+      end
 
       Lita.register_handler(self)
     end
