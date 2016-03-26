@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-ping"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["tsub"]
   spec.email         = ["tsubasatakayama511@gmail.com"]
   spec.description   = "response to pong"
